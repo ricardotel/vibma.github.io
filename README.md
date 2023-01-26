@@ -1,5 +1,0 @@
-# vibma.github.io
-
-
-
-submit
