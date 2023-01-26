@@ -7,7 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="vibrate.css">
 </head>
-<body><input class="vibra" type="submit">
-    <script src="vibrate.js"></script>
+<body>
+    <button class="vibra" type="submit" onclick="vibraPattern()">vibrar</button>
+    <script>
+        function vibraPattern(){
+            navigator.vibrate([300,100,300,100,300]);
+            if(navigator.vibrate){
+                console.log("vibra")
+            }
+        }
+    </script>
 </body>
 </html>
